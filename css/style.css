@@ -1,0 +1,158 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #9e6070;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #FCE2EA;
+    font-size: px;
+    font-weight: bold;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #FCE2EA;
+    font-size: 16px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #9e6070;
+    border-color: #9e6070;
+    background-color: #FCE2EA;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #9e6070;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+    float: right;
+}
+
+.menu-svg-color {
+    color: #9e6070
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+    float: right;
+}
+
+.override-bootstrap-align {
+    float: right;
+}
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/brynninmapshop.png");
+    text-align: center;
+    color: #9e6070;
+    padding: 10%;
+    border-radius: 0px;
+    background-size: cover;
+    background-position: 50% 40%;
+    text-shadow: #fce2ea 1px 0 20px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fce2ea;
+    border-color: #9e6070;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover {
+    border-color: #9e6070;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 22rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-button {
+    background-color: #9e6070;
+    color: #fce2ea;
+    border-color: #9e6070;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
